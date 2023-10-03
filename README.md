@@ -1,6 +1,8 @@
 # trabalhos-html.css
 Exercício 1 FrontEnd Essencial(HTML)
+
 - Formulário
+
   <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,6 +48,8 @@ Exercício 1 FrontEnd Essencial(HTML)
 
 
 - Lista
+
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
