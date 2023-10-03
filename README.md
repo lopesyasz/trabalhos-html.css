@@ -41,6 +41,10 @@ Exercício 1 FrontEnd Essencial(HTML)
 </html>
 
 
+
+
+
+
 - Lista
 <!DOCTYPE html>
 <html lang="en">
@@ -78,10 +82,14 @@ Exercício 1 FrontEnd Essencial(HTML)
 </main>
 <footer>
     <a>
+
+
+
         
 
   
-- tabela  <!DOCTYPE html>
+- tabela
+   <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
