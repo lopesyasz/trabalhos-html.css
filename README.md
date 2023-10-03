@@ -81,4 +81,31 @@ Exercício 1 FrontEnd Essencial(HTML)
         
 
   
-- tabela  
+- tabela  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela.css</title>
+</head>
+<body>
+    <table border="1">   
+        <tr>
+            <td>Nome</td>
+            <td>Sobrenome
+          <td>Idade</td>
+        </tr>  
+        <tr>
+<td>Yasmim</td>
+<td>Lopes</td>
+<td>19</td>
+</tr> 
+<tr>
+    <tr>
+        <td> Júlio Cesar</td>
+        <td>Alves</td>
+        <td>18</td>
+</tr>
+ </table>
+</body>
+</html>
