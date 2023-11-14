@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário de Contato</title>
+	<script>
+		function validarFormulario() {
+			var nome = document.forms["formulario"]["nome"].value;
+			var email = document.forms["formulario"]["email"].value;
+			var texto = document.forms["formulario"]["texto"].value;
+
+			if (nome == "" || texto == "") {
+				alert("Por favor, preencha todos os campos.");
+				return false;
+			}
+
+			if (!email.includes("@")) {
+				alert("Por favor, insira um endereço de email válido.");
+				return false;
+			}
+
+			return true;
+		}
+	</script>
+</head>
+<body>
+	<h1>Formulário de Contato</h1>
+	<form name="formulario" onsubmit="return validarFormulario()" method="post">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome"><br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+
+		<label for="texto">Texto:</label>
+		<textarea id="texto" name="texto"></textarea><br><br>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
